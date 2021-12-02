@@ -8,56 +8,52 @@
   </head>
   <style>
     body {
-        background-color: #c1fd72;
+      background-color: #c1fd72;
       font-size: 50px;
     }
-    section{ 
-        height: 60vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction:column ;
+    section {
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
-    #Number{ 
-        font-size: 2em;
+    #Number {
+      font-size: 2em;
     }
-    button{
-      
-        margin: 10px;
-        width: 200px ; 
-        height: 40px ; 
-        font-size: 0.4em; 
-        text-transform: uppercase;
+    button {
+      margin: 10px;
+      width: 200px;
+      height: 40px;
+      font-size: 0.4em;
+      text-transform: uppercase;
     }
-    #container{
+    #container {
       display: flex;
       align-items: center;
     }
-    #container #number{
-
+    #container #number {
       padding: 50px;
-      
     }
 
-
-    #container button{
-        width: 80px ; 
-        height: 40px ; 
-        font-size: 0.4em; 
-        text-transform: uppercase;
+    #container button {
+      width: 80px;
+      height: 40px;
+      font-size: 0.4em;
+      text-transform: uppercase;
     }
   </style>
   <body>
     <section>
       <h1>Timer</h1>
 
-    <div id="container">
-      <button onclick="aumenta()">+</button>
-      <div id="number">--</div>
-      <button onclick="diminui()">-</button>
-    </div>
-    <button id="comeca" onclick="comeca()">começa</button>
-    <button onclick="parar()">Parar</button>
+      <div id="container">
+        <button onclick="aumenta()">+</button>
+        <div id="number">--</div>
+        <button onclick="diminui()">-</button>
+      </div>
+      <button id="comeca" onclick="comeca()">começa</button>
+      <button onclick="parar()">Parar</button>
     </section>
 
     <script src="s.js"></script>
