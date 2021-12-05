@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,11 +8,12 @@
   </head>
   <style>
     body {
-      background-color: #c1fd72;
-      font-size: 50px;
+      background-color: rgba(240, 248, 255, 0.897);
+      background-size: cover;
+      font-size: 38px;
     }
-    section {
-      height: 60vh;
+    section.sec1{
+  
       display: flex;
       align-items: center;
       justify-content: center;
@@ -31,9 +32,10 @@
     #container {
       display: flex;
       align-items: center;
+  
     }
     #container #number {
-      padding: 50px;
+      padding: 10px;
     }
 
     #container button {
@@ -42,9 +44,30 @@
       font-size: 0.4em;
       text-transform: uppercase;
     }
+    section.outra{ 
+      
+      display: flex; 
+      justify-content: center;
+      justify-content: space-around;
+      
+    }
+    .outra div{
+      background-color: rgba(36, 36, 36, 0.795);
+      color:white;
+      width: 400px; 
+      height: 200px;
+      border-radius: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      text-align: center;
+      
+    }
   </style>
   <body>
-    <section>
+    <section class="sec1">
+
       <h1>Timer</h1>
 
       <div id="container">
@@ -54,6 +77,15 @@
       </div>
       <button id="comeca" onclick="comeca()">começa</button>
       <button onclick="parar()">Parar</button>
+    </section>
+
+    <section class="outra">
+
+      <div class="minutos">--</div>
+    
+      <div class="milesimos">--</div>
+
+      
     </section>
 
     <script src="timer.js"></script>
