@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(240, 248, 255, 0.897);
+    background-size: cover;
+    font-size: 38px;
+  }
+  section.sec1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #Number {
+    font-size: 2em;
+  }
+  button {
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 0.4em;
+    text-transform: uppercase;
+  }
+  #container {
+    display: flex;
+    align-items: center;
+
+  }
+  #container #number {
+    padding: 10px;
+  }
+
+  #container button {
+    width: 80px;
+    height: 40px;
+    font-size: 0.4em;
+    text-transform: uppercase;
+  }
+  section.outra{ 
+    
+    display: flex; 
+    justify-content: center;
+    justify-content: space-around;
+    
+  }
+  .outra div{
+    background-color: rgba(36, 36, 36, 0.795);
+    color:white;
+    width: 400px; 
+    height: 200px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    
+  }
